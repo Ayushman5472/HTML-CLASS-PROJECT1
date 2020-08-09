@@ -1,0 +1,78 @@
+h1 {
+    color: white;
+    text-decoration: wavy;
+    text-transform: capitalize;
+    letter-spacing: 6px;
+    font-family: "Ink Free";
+    padding-left: 100px;
+    text-shadow:5px 5px 5px  black;
+    margin-left: 35%;
+}
+
+/* * {
+    border: solid;
+} */
+    
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+p{
+
+    transform: translate(2%,500%);
+    position: absolute;
+}
+.menu a{
+margin-left: 20px;
+margin-right: 20px;
+}
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+a{
+    color: yellow;
+}
+a:visited{
+    color: azure;  
+}
+img:hover{
+    opacity: 0.5;
+}
+p{
+    opacity: 0;
+}
+p:hover{
+    opacity: 1;
+}
+ul{
+    background:magenta;
+    padding:20px;
+}
+ul li{
+    background-color: maroon;
+    margin: 50px;
+}
